@@ -1,0 +1,198 @@
+body{
+	background-color: rgba(0,0,0,0.7);
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+.area-menu{
+	background-color: #A4A4A4;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+.nome{
+	width: 70%;
+}
+
+.btn{
+	width: 70%;
+}
+
+.area-usuario{
+	padding: 5px 20px;
+	margin-top: 45px;
+	margin-bottom: 75px;
+	text-align: right;
+	width: 80%;
+	background-color: #F4A460;
+	border-radius: 10px;
+}
+
+.question{
+	margin-bottom: 25px;
+	background-color: #F4A460;
+	width: 82%;
+	text-align: center;
+	height: 50px;
+	border-radius: 70px;
+	padding: 5px;
+}
+
+.respostas{
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px 20px;
+	border-radius: 50px;
+	width: 40%;
+	height: 50px;
+	background-color: #A4A4A4;
+}
+.area-jogo .btn{
+	background-color: #F4A460;
+	color: #000;
+	width: 20%;
+	margin: 20px 10px 5px 10px;
+	border-radius: 60px;
+	border: none;
+	font-size: 20px;
+}
+
+.popup1{
+	background-color: green;
+	width: 20%;
+	height: 50px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px;
+}
+
+.popup2{
+	background-color: red;
+	width: 20%;
+	height: 50px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px;
+}
+
+.area-usuario h4 span{
+	color: red;
+}
+
+/*******************************Media queries*****************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.area-menu{
+		margin-top: 150px;
+		width: 90%;
+	}
+	.area-jogo .btn{
+		width: 40%;
+		font-size: 20px;
+	}
+	.question{
+		width: 82%;
+		height: 50%;
+		border-radius: 70px;
+		padding: 10px;
+	}
+	.respostas{
+		text-align: center;
+		font-size: 22px;
+		margin: 5px;
+		padding: 20px 20px;
+		width: 40%;
+		height: 80px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.area-menu{
+		margin-top: 150px;
+		width: 90%;
+	}
+	.area-jogo .btn{
+		width: 80%;
+		font-size: 20px;
+	}
+	.question{
+		width: 100%;
+		height: 60%;
+		border-radius: 70px;
+		padding: 15px;
+	}
+	.respostas{
+		text-align: center;
+		font-size: 22px;
+		margin: 5px;
+		padding: 20px 20px;
+		width: 80%;
+		height: 80%;
+	}
+	.area-usuario{
+		padding: 5px 20px;
+		margin: 45px 20px 75px 0;
+		width: 100%;
+	}
+	
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.area-menu{
+		margin-top: 300px;
+		width: 90%;
+		height: 80%;
+	}
+	.area-menu img{
+		width: 90%;
+		margin-left: 32px;
+	}
+	.nome{
+		width: 80%;
+		height: 50px;
+		font-size: 25px;
+	}
+	.area-menu .btn{
+		width: 80%;
+		height: 50px;
+		font-size: 25px;
+	}
+	.area-jogo .btn{
+		width: 80%;
+		font-size: 20px;
+	}
+	.question{
+		width: 100%;
+		height: 60%;
+		border-radius: 70px;
+		padding: 15px;
+	}
+	.respostas{
+		text-align: center;
+		font-size: 22px;
+		margin: 5px;
+		padding: 20px 20px;
+		width: 40%;
+		height: 80%;
+	}
+	.area-usuario{
+		padding: 5px 20px;
+		margin: 45px 20px 75px 0;
+		width: 100%;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
