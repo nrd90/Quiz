@@ -61,7 +61,7 @@ var todasPerguntas = [{	question: '1. Normalmente, quantos litros de sangue uma 
 var i = 1 // contador de questões
 var x = 0 // contador para verficar as respostas e comparar com a escolha selecionada
 var score = 0
-var tempo = 10
+var tempo = 60
 var cronometro
 var nomeJogador
 
@@ -70,7 +70,6 @@ window.onload = initPage  //executa a função initPage quando a página for com
 function initPage(){  // optei por iniciar a página com a primeira questão
 	// validar()
 
-	document.getElementById('nome').innerHTML = nomeJogador
 	document.getElementById('question').innerHTML = todasPerguntas[0].question
 
 	todasPerguntas[i].choices.forEach(function(item, index){
